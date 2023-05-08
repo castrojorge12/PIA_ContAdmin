@@ -126,3 +126,33 @@ print('-'*20)
 # ***************************
 # Información de Inventarios
 # ***************************
+print("\t\t- - - Productos - - -")
+print('-'*20)
+
+print('Precio de Venta Primer Semestre')
+cl_1s = int(input('CL: $'))
+ce_1s = int(input('CE: $'))
+cr_1s = int(input('CR: $'))
+print('-'*20)
+
+print('Precio de Venta Segundo Semestre')
+cl_2s = int(input('CL: $'))
+cl_2s = int(input('CL: $'))
+cl_2s = int(input('CL: $'))
+print('-'*20)
+
+print('Ventas Planeadas Primer Semestre')
+cl_ventas_1s = int(input('CL: '))
+cl_ventas_1s = int(input('CL: '))
+cl_ventas_1s = int(input('CL: '))
+print('-'*20)
+
+print('Ventas Planeadas Segundo Semestre')
+cl_ventas_1s = int(input('CL: '))
+cl_ventas_1s = int(input('CL: '))
+cl_ventas_1s = int(input('CL: '))
+print('-'*20)
+
+# ***************************
+# Gastos de Administración y Ventas
+# ***************************
