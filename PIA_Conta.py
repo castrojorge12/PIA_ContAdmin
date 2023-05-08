@@ -156,3 +156,11 @@ print('-'*20)
 # ***************************
 # Gastos de Administración y Ventas
 # ***************************
+print("Gastos de Administración y Ventas:")
+depreciacion_A = int(input("Depreciacion - Anuales: "))
+sueldosS_A = int(input("Sueldos y salarios - Anuales: "))
+comisiones = int(input("Comisiones - Porcentaje de las ventas: "))
+varios_1s = int(input("Varios - Primer Semestre: "))
+varios_2s = int(input("Varios - Segundo Semestre): "))
+intereses_prestamo_A = int(input("Interes por Prestamo - Anuales: "))
+print('-'*20)
