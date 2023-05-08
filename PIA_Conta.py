@@ -1,5 +1,6 @@
-#Comenzar el código
 # Solicitamos la información
+# Balance general
+# **************************
 print('\t\t\tBALANCE GENERAL')
 print('-'*20)
 # Pedimos los Activos
@@ -51,8 +52,41 @@ print('-'*20)
 capital_contr = int(input("\tCapital contribuido: "))
 capital_ganado = int(input("\tCapital ganado"))
 tCapCont = (capital_contr + capital_ganado)
-print("Capital contable total: ", tCapCont)
+print("Capital Contable Total: ", tCapCont)
 
 # Suma de Pasivo y Capital
 sum_pasCapital = (pas_tot + tCapCont)
-print("suma del pasivo y capital: ",sum_pasCapital)
+print("Suma del PASIVO y CAPITAL: ",sum_pasCapital)
+
+# ***************************
+# Requerimiento de materiales
+# ***************************
+print('-'*20)
+print("\t\tRequerimientos de Materiales")
+print("Material A")
+matPrima_A1 = int(input("Producto CF: "))
+matPrima_A2 = int(input("Producto CD: "))
+matPrima_A3 = int(input("Producto CP: "))
+print('-'*20)
+
+print("Material B")
+matPrima_B1 = int(input("Producto CF: "))
+matPrima_B2 = int(input("Producto CD: "))
+matPrima_B3 = int(input("Producto CP: "))
+print('-'*20)
+
+print("Material C")
+matPrima_C1 = int(input("Producto CF: "))
+matPrima_C2 = int(input("Producto CD: "))
+matPrima_C3 = int(input("Producto CP: "))
+print('-'*20)
+
+print('Horas de Mano de Obra')
+hrs_ManoObra_1 = int(input("Producto CF: "))
+hrs_ManoObra_2 = int(input("Producto CD: "))
+hrs_ManoObra_3 = int(input("Producto CP: "))
+print('-'*20)
+
+# ***************************
+# Información de Inventarios
+# ***************************
