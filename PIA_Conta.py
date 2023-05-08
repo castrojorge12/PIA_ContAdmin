@@ -164,3 +164,17 @@ varios_1s = int(input("Varios - Primer Semestre: "))
 varios_2s = int(input("Varios - Segundo Semestre): "))
 intereses_prestamo_A = int(input("Interes por Prestamo - Anuales: "))
 print('-'*20)
+
+# ***************************
+# Gastos de Fabricación Indirectos
+# ***************************
+
+print("Gastos de Fabricación Indirectos")
+depreciacionA_Fabricacion = int(input("Depreciacion - Anuales: "))
+seguros_A = int(input("Seguros - Anuales: "))
+mant_1s = int(input("Mantenimiento - Primer Semestre: "))
+mant_2s = int(input("Mantenimiento - Segundo Semestre): "))
+energeticos_1s = int(input("Energeticos - Primer Semestre: "))
+energeticos_2s = int(input("Energeticos - Segundo Semestre): "))
+varios_A = int(input("Varios - Anuales: "))
+print('-'*20)
