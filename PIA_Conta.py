@@ -90,3 +90,39 @@ print('-'*20)
 # ***************************
 # Información de Inventarios
 # ***************************
+print('\t\t- - - Información de Invenarios - - -')
+print('-'*20)
+
+print("Inventario Inicial Primer Semestre")
+matA_1s = int(input("Material A: "))
+matB_1s = int(input("Material B: "))
+matC_1s = int(input("Material C: "))
+prodCF_1s = int(input("Producto CF: "))
+prodCD_1s = int(input("Producto CD: "))
+prodCP_1s = int(input("Producto CP: "))
+print('-'*20)
+
+print("Inventario Final Segundo Semestre")
+matA_2s = int(input("Material A: "))
+matB_2s = int(input("Material B: "))
+matC_2s = int(input("Material C: "))
+prodCF_2s= int(input("Producto CF: "))
+prodCD_2s = int(input("Producto CF: "))
+prodCP_2s = int(input("Producto CF: "))
+print('-'*20)
+
+print("Costo Primer Semestre")
+matA_Costo_1s = int(input("Material A: $"))
+matB_Costo_1s = int(input("Material B: $"))
+matC_Costo_1s = int(input("Material C: $"))
+print('-'*20)
+
+print("Costo Segundo Semestre")
+matA_Costo_2s = int(input("Material A: $"))
+matB_Costo_2s = int(input("Material B: $"))
+matC_Costo_2s = int(input("Material C: $"))
+print('-'*20)
+
+# ***************************
+# Información de Inventarios
+# ***************************
