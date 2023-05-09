@@ -178,3 +178,16 @@ energeticos_1s = int(input("Energeticos - Primer Semestre: "))
 energeticos_2s = int(input("Energeticos - Segundo Semestre): "))
 varios_A = int(input("Varios - Anuales: "))
 print('-'*20)
+
+# ***************************
+#        DESARROLLO
+#     Presupuesto Maestro
+# ***************************
+
+
+print('\t\t\t- - - PRESUPUESTO MAESTRO - - -')
+print('-'*20)
+print('\tI. Presupuesto de Operación')
+print('\t\t- - - 1. Presupuesto de Ventas- - -')
+print('-'*20)
+print("Producto CL")
