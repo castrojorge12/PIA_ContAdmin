@@ -124,7 +124,7 @@ matC_Costo_2s = int(input("Material C: $"))
 print('-'*20)
 
 # ***************************
-# Información de Inventarios
+#          Productos
 # ***************************
 print("\t\t- - - Productos - - -")
 print('-'*20)
@@ -137,20 +137,20 @@ print('-'*20)
 
 print('Precio de Venta Segundo Semestre')
 cl_2s = int(input('CL: $'))
-cl_2s = int(input('CL: $'))
-cl_2s = int(input('CL: $'))
+cl_2s = int(input('CE: $'))
+cl_2s = int(input('CR: $'))
 print('-'*20)
 
 print('Ventas Planeadas Primer Semestre')
 cl_ventas_1s = int(input('CL: '))
-cl_ventas_1s = int(input('CL: '))
-cl_ventas_1s = int(input('CL: '))
+cl_ventas_1s = int(input('CE: '))
+cl_ventas_1s = int(input('CR: '))
 print('-'*20)
 
 print('Ventas Planeadas Segundo Semestre')
-cl_ventas_1s = int(input('CL: '))
-cl_ventas_1s = int(input('CL: '))
-cl_ventas_1s = int(input('CL: '))
+cl_ventas_2s = int(input('CL: '))
+cl_ventas_2s = int(input('CE: '))
+cl_ventas_2s = int(input('CR: '))
 print('-'*20)
 
 # ***************************
@@ -184,10 +184,10 @@ print('-'*20)
 #     Presupuesto Maestro
 # ***************************
 
-
 print('\t\t\t- - - PRESUPUESTO MAESTRO - - -')
 print('-'*20)
 print('\tI. Presupuesto de Operación')
 print('\t\t- - - 1. Presupuesto de Ventas- - -')
 print('-'*20)
-print("Producto CL")
+print('Producto CL')
+print('Primer Semestre')
